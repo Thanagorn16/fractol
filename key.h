@@ -1,33 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   fractol.h                                          :+:      :+:    :+:   */
+/*   key.h                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: truangsi <truangsi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/02 15:42:16 by truangsi          #+#    #+#             */
-/*   Updated: 2023/04/03 15:50:56 by truangsi         ###   ########.fr       */
+/*   Created: 2023/04/03 13:30:48 by truangsi          #+#    #+#             */
+/*   Updated: 2023/04/03 13:32:31 by truangsi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FRACTOL_H
-# define FRACTOL_H
+#ifndef KEY_H
+# define KEY_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <mlx.h>
-#include "key.h"
-
-typedef struct s_frac
-{
-	void	*mlx;
-	void	*win_ptr;
-	void	*img;
-	char	*addr;
-	int		bits_per_pixel;
-	int		line_length;
-	int		endian;
-} t_frac;
-
+# define K_ESC	53
 
 #endif
+
